@@ -1,0 +1,122 @@
+/* Colors and fonts */
+body {
+	background: #f3DFE3;
+	color: #4D4646;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+}
+h1 {
+	color: #272121
+	font-family: 'Bebas Neue', cursive;
+	font-size: 65px;
+}
+h2 {
+	color: #5b0909;
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+h3 {
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: bold;
+	font-size: 23px;
+}
+a {
+	font-family: 'Amatic SC', cursive;
+	text-decoration: none;
+	color: #d1274b;
+	font-weight: bold;
+}
+a:hover {
+	color: #faeee7;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+#leader {
+	border: 5px solid white;
+}
+.text-center {
+	text-align: center;
+}
+.img-center {
+	margin: 20px 0px 20px 200px;
+}
+.a-center {
+	text-align: center;
+}
+
+.btn-yellow {
+	background-color: yellow;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: pink;
+	margin-left: 370px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.btn-yellow:hover {
+	background-color: #faeee7;
+	color: pink;
+}
+
+.container {
+	width: 1200px;
+	margin: 20px auto;
+}
+
+.card-pink {
+	background: #5b09091c;
+    padding: 60px 100px;
+   	margin: 60px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 20px;
+}
+
+.list-inline {
+	list-style: inline;
+	padding: 0px;
+}
+
+.list-inline {
+	list-style: none;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 25px;
+	color: black;
+}
+
+.list-inline i:hover {
+	font-size: 25px;
+	color: white;
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
